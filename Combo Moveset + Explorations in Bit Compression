@@ -5,6 +5,8 @@ Values to remember:
 p1 params - 0x8008DCFC - 0x8008DD19
 p1 moveset - 0x8008DC34 - 0x8008DCE7
 
+800980D4
+
 Things to do:
 - Compare VPW2 combo moveset with combo moves set to 0x00
 - Identify where Combo stance is in VPW2 moveset; compare where taunts are between WM2K and VPW2
@@ -24,6 +26,16 @@ Combo Wrestler Move Offsets:
 0x0A: Weak B+Down -> Starts at 0x01
 0x0B: ??
 0x0C: Strong A -> Starts at 0x10
+0x0D: Strong A+L/R -> Starts at 0x01
+0x0E: ??
+0x0F: Strong A+Up -> Starts at 0x10
+0x10: Strong A+Down -> Starts at 0x01
+
+Combo moves from 0x11 to 0x17?
+
+0x18: Front Finisher -> Starts at 0x80
+0x1B: Front Stolen Finisher -> Starts at 0x80
+0x1C: Back Weak A Grapple -> Starts at 0x20
 0x50: Weak B Strike -> Starts at 0x02, moves up by 0x02
 0x51: Weak B+Dir Strike -> Starts at 0x01, moves up by 0x01
 0x52: ??
