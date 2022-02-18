@@ -71,6 +71,7 @@ Combo moves from 0x11 to 0x17?
 0x7A: Ducking attack -> Starts at 0x02
 0x7B: Apron kick to inside -> Starts at 0x04
 0x7C: Apron kick to outside -> Starts at 0x08
+0xB1: Combo stance -> Starts at 0x20
 
 
 
