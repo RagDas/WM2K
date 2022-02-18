@@ -6,7 +6,7 @@ p1 params - 0x8008DCFC - 0x8008DD19
 p1 moveset - 0x8008DC34 - 0x8008DCE7
 
 Combo Wrestler Move Offsets:
-0x00: ?? -> This gets triggered when 0x01 
+0x00: ?? -> This gets triggered when 0x01 reaches a high enough value
 0x01: Weak A grapple -> Starts at 0x40 (behaves the same as strikes)
 0x02: Weak A+Right grapple -> Starts at 0x10
 0x50: Weak B Strike -> Starts at 0x02, moves up by 0x02
