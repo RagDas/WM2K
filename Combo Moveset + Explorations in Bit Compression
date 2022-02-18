@@ -7,9 +7,17 @@ p1 moveset - 0x8008DC34 - 0x8008DCE7
 
 800980D4
 
-Things to do:
-- Compare VPW2 combo moveset with combo moves set to 0x00
-- Identify where Combo stance is in VPW2 moveset; compare where taunts are between WM2K and VPW2
+I can confirm the combo style exists in WM2K. If you activate the combo stance, you will be able to enter it with your Strong B grapples. After that, it gets kind of messy:
+For 0x11
+01 - glitch move
+02 - glitch move
+10 - glitch move
+20 - nothing
+04 - glitch move
+40 - nothing
+08 - nothing
+80 - nothing
+05 - glitch move (death valley driver)
 
 
 Combo Wrestler Move Offsets:
