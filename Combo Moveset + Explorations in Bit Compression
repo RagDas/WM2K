@@ -24,8 +24,8 @@ What happens if I try and load multiple 0x01 bytes? It loads a bunch of strong b
 0x12 - B+Up combo strike -> check which move this is
 0x13 - B+Down combo strike -> pump handle drop
 0x14 - ??
-0x15 - B+Left combo strike -> backslide pin (starts at 0x010)
-0x16 - ??
+0x15 - B+Left combo strike -> backslide pin (starts at 0x10)
+0x16 - B+Right combo strike -> check which move tihs is (starts at 0x10)
 0x17 - Finisher
 
 So where are the rest of the combo commands?
