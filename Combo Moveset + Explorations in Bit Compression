@@ -19,6 +19,11 @@ For 0x11
 80 - nothing
 05 - glitch move (Burning Hammer)
 
+What happens if I try and load multiple 01 bytes?
+0x01 - B combo strike -> check which move this is
+0x02 - B+Up combo strike -> check which move this is
+0x03 - B+Down combo strike -> pump handle drop
+
 
 Combo Wrestler Move Offsets:
 0x00: ?? -> This gets triggered when 0x01 reaches a high enough value
