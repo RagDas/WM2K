@@ -19,11 +19,16 @@ For 0x11
 80 - nothing
 05 - glitch move (Burning Hammer)
 
-What happens if I try and load multiple 01 bytes?
-0x01 - B combo strike -> check which move this is
-0x02 - B+Up combo strike -> check which move this is
-0x03 - B+Down combo strike -> pump handle drop
+What happens if I try and load multiple 01 bytes? It loads a bunch of strong back grapples:
+0x11 - B combo strike -> check which move this is
+0x12 - B+Up combo strike -> check which move this is
+0x13 - B+Down combo strike -> pump handle drop
+0x14 - ??
+0x15 - ??
+0x16 - ??
+0x17 - Finisher
 
+So where are the rest of the combo commands?
 
 Combo Wrestler Move Offsets:
 0x00: ?? -> This gets triggered when 0x01 reaches a high enough value
