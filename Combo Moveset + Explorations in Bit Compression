@@ -9,24 +9,30 @@ p1 moveset - 0x8008DC34 - 0x8008DCE7
 
 I can confirm the combo style exists in WM2K. If you activate the combo stance, you will be able to enter it with your Strong B grapples. After that, it gets kind of messy:
 For 0x11
-01 - glitch move
-02 - glitch move
+01 - Blue Thunder Bomb
+02 - Cobra Clutch Suplex
 10 - glitch move
 20 - nothing
 04 - glitch move
 40 - nothing
 08 - nothing
 80 - nothing
-05 - glitch move (Burning Hammer)
+03 = Impaler
+04 = Pump Handle Slam
+05 = Burning Hammer/Reverse Death Valley Driver
+06 = Hurricanrana Pin
+07 = Walking Side Slam
 
-Combo strikes don't exist in WM2K. Loading the base values instead calls a bunch of strong back grapples:
+Combo strikes don't exist in WM2K. Loading the base values instead calls special back grapples:
 0x11 - B combo strike -> check which move this is, could be a Blue Thunder Bomb (starts at 0x01)
 0x12 - B+Up combo strike -> check which move this is (starts at 0x01)
 0x13 - B+Down combo strike -> pump handle drop (starts at 0x01)
 0x14 - ??
 0x15 - B+Left combo strike -> backslide pin (starts at 0x10)
-0x16 - B+Right combo strike -> check which move tihs is (starts at 0x10)
+0x16 - B+Right combo strike -> check which move this is (starts at 0x10)
 0x17 - Finisher
+
+
 
 So what do you need to do to implement them? You need to replace all of those moves, meaning you can't access those moves.
 
