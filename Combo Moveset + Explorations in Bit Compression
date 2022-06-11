@@ -11,17 +11,16 @@ I can confirm the combo style exists in WM2K. If you activate the combo stance, 
 For 0x11
 01 - Blue Thunder Bomb
 02 - Cobra Clutch Suplex
-10 - glitch move
-20 - nothing
-04 - glitch move
-40 - nothing
-08 - nothing
-80 - nothing
 03 = Impaler
 04 = Pump Handle Slam
 05 = Burning Hammer/Reverse Death Valley Driver
 06 = Hurricanrana Pin
 07 = Walking Side Slam
+10 - nothing
+20 - nothing
+40 - nothing
+08 - nothing
+80 - nothing
 
 Combo strikes don't exist in WM2K. Loading the base values instead calls special back grapples:
 0x11 - B combo strike -> check which move this is, could be a Blue Thunder Bomb (starts at 0x01)
